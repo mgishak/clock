@@ -1,0 +1,47 @@
+#demo {
+    display:block;
+    text-align: center;
+    background-color: rgb(183, 175, 197);
+    padding: 10px 0;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 45px;
+    border-radius: 20px;
+    border: 2px solid rgb(158, 151, 151);
+    box-shadow:inset 2px 1px 8px 2px rgb(41, 40, 40);
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.clock{
+    position: relative;
+    transition: 4s;
+    box-shadow:inset 2px 4px 6px 8px rgba(63, 62, 62, 0.877);
+    border: 5px solid rgb(129, 76, 76);
+    margin: 30px auto;
+    border-radius: 50%;
+    display: block;
+    width:330px;
+    height: 330px;
+    background-image: linear-gradient(to left,  rgb(27, 187, 250), white , rgb(0, 0, 255)) ;
+}
+.roo{
+    transform: rotatey(90deg) !important;
+}
+.roo2{
+    transform: rotatey(-90deg) !important;
+    background-image: linear-gradient(to left,  rgb(250, 72, 27), white , rgb(30, 255, 0)) ;
+}
+
+body{
+    background: url(cal_image.jpg) no-repeat;
+    
+}
+h3{
+    font-weight:bold;
+    position: absolute;
+    top:60%;
+    right:20%;
+}
